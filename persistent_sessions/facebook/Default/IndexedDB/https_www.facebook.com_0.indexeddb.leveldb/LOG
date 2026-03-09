@@ -1,0 +1,3 @@
+2026/02/23-11:54:24.064 2d64 Creating DB /home/saad/Desktop/ps02/PS02/SocialScraper/persistent_sessions/facebook/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb since it was missing.
+2026/02/23-11:54:24.069 2d64 Reusing MANIFEST /home/saad/Desktop/ps02/PS02/SocialScraper/persistent_sessions/facebook/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/23-11:54:25.096 2d67 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
