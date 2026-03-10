@@ -79,6 +79,30 @@ playwright install
 pip install -e .
 ```
 
+4. **SECURITY SETUP** - Configure environment variables:
+```bash
+# Copy the example environment file
+cp .env.example .env
+
+# Edit .env and add your API keys (NEVER commit this file)
+# Get Gemini API key from: https://makersuite.google.com/app/apikey
+nano .env
+```
+
+## 🔒 Security Notice
+
+**CRITICAL**: This repository previously contained exposed API keys. If you're using this code:
+
+1. **Never commit `.env` files** - They contain sensitive credentials
+2. **Regenerate any exposed API keys** immediately
+3. **Use `.env.example`** as a template for required environment variables
+4. **Check your commit history** for accidentally committed secrets
+
+### API Key Security
+- The Gemini API key in this repository has been **revoked and should not be used**
+- Get your own API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+- Add it to your local `.env` file (which is now properly gitignored)
+
 ## Quick Start
 
 ### Complete Workflow Demo
